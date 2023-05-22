@@ -15,7 +15,7 @@ const Team_card = ({
   role,
 }) => {
   return (
-    <div className="hover:-translate-y-2 transition-all h-100 w-100 inline-block text-center m-5 hover:bg-[#22272E]/90 shadow-md px-8 py-5 rounded-md hover:text-gray-200 text-black/90">
+    <div className="hover:-translate-y-2 transition-all h-100 w-100 inline-block text-center m-5 hover:bg-[#AFD3E2]/90 shadow-md px-8 py-5 rounded-md hover:text-black text-black/90">
       {role ? (
         <h1 className="text-xl my-4 border-b border-red w-[10rem] text-center mx-auto ">
           {role}

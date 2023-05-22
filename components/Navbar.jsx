@@ -10,12 +10,12 @@ const Navbar = () => {
   let [hidden, setHidden] = useState(true);
 
   const active_class =
-    'block py-2 pr-4 pl-3 text-white bg-[#40B3FB] md:bg-transparent md:text-[#40B3FB] md:p-0 border-b-2 border-[#40B3FB]';
+    'block py-2 pr-4 pl-3 text-[#32769B] bg-white md:bg-transparent md:text-[#32769B] md:p-0 border-b-2 border-[#32769B]';
   const not_active_class =
-    'block py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#40B3FB] md:p-0';
+    'block py-2 pr-4 pl-3 text-[#3BB6FA] hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#32769B] md:p-0';
 
   return (
-    <nav className="shadow-md px-2 sm:px-4 py-2.5 rounded-2xl relative top-2 bg-[#22272E]/90 mx-10 ">
+    <nav className="shadow-md px-2 sm:px-4 py-2.5 rounded-2xl relative top-2 bg-[#AFD3E2]/90 mx-10 ">
       <div className="container flex flex-wrap justify-center items-center mx-auto relative">
         {/* <Link href="/" class="flex items-center">
           <Image
